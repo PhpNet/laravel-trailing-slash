@@ -1,9 +1,9 @@
 {
-    "name": "phpnet/laravel-trailing-slash",
+    "name": "phpnet/phpnet-laravel-trailing-slash",
     "description": "Adds redirection with trailing slash in Laravel.",
     "keywords": ["redirect", "laravel", "php"],
     "license": "MIT",
-    "homepage": "https://github.com/PhpNet/phpnet-laravel-trailing-slash/",
+    "homepage": "https://github.com/phpnet/phpnet-laravel-trailing-slash/",
     "authors": [
         {
             "name": "Serg Serdyuk",
