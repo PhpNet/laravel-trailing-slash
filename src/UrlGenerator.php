@@ -17,7 +17,7 @@ class UrlGenerator extends BaseUrlGenerator
      */
     protected function trimUrl($root, $path, $tail = '')
     {
-        return parent::trimUrl($root, $path, $tail).(str_contains($path, '#') ? '' : '/');
+        return parent::trimUrl($root, $path, $tail).((str_contains($path, '#')||ends_with($path, '.html')) ? '' : '/');
     }
 
     /**
